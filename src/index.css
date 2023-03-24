@@ -1,5 +1,6 @@
 body {
   font-family: 'Nunito', sans-serif;
+  padding: 0 3rem
 }
 
 #error-page {
@@ -9,7 +10,7 @@ body {
   justify-content: center;
   width: 100%;
 }
-
+/* ------------------------------------------- */
 /* Box sizing rules */
 *,
 *::before,
