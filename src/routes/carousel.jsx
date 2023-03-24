@@ -7,7 +7,6 @@ const ImageCarousel = () => (
 	<Carousel
 		autoPlay
 		infiniteLoop="True"
-		width='100%'
 		className="carousel"
 	>
 		<img
