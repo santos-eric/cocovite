@@ -1,28 +1,15 @@
 footer
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-flow: column
-    width: 100%
-    background-color: whitesmoke
-    .title
-        h1
+    @media screen and (min-width:300px)
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-flow: row
+        width: 100%
+        .icon
             color: black
-
-    @media screen and (min-width:720px)
-        justify-content: space-evenly
-        height: 6rem
-        .icons
-            flex-flow: row
-        a
-            text-decoration: none
-            color: black
-            .icon
-                margin: 1rem
 
     @media screen and (min-width:960px)
-        justify-content: space-evenly
-        height: 7rem
+
 .copyright
     display: flex
     justify-content: center

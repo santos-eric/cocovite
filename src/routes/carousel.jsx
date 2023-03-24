@@ -35,12 +35,12 @@ const ImageCarousel = () => (
 			height="619"
 			width="800"
             /> */}
-		<img
+		{/* <img
 			src="/images/4.jpg"
 			alt="aguachiles"
 			height="619"
 			width="800"
-            />
+            /> */}
 	</Carousel>
 );
 export default ImageCarousel;

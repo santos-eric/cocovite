@@ -7,10 +7,6 @@ const footer = () => {
   return (
     <>
       <footer>
-        <div className="title">
-          <h1>Follow Us</h1>
-        </div>
-        <div className="icons">
           <a
             href="https://www.tiktok.com/@coco.lokoep?lang=en"
             target="_blank"
@@ -33,7 +29,6 @@ const footer = () => {
           >
             <FaInstagram size="30" className="icon" />
           </a>
-        </div>
       </footer>
       <div className="copyright">
         <h4>
