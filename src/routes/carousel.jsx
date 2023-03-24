@@ -5,10 +5,9 @@ import '../styles/carousel.sass';
 
 const ImageCarousel = () => (
 	<Carousel
-		showArrows={true}
-		infiniteLoop={true}
-		showThumbs={false}
 		autoPlay
+		infiniteLoop="True"
+		width='100%'
 		className="carousel"
 	>
 		<img
@@ -29,18 +28,24 @@ const ImageCarousel = () => (
 			height="619"
 			width="800"
             />
-		{/* <img
+		<img
 			src="/images/3.jpg"
 			alt="aguachiles"
 			height="619"
 			width="800"
-            /> */}
-		{/* <img
+            />
+		<img
 			src="/images/4.jpg"
 			alt="aguachiles"
 			height="619"
 			width="800"
-            /> */}
+            />
+		<img
+			src="/images/5.jpg"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
 	</Carousel>
 );
 export default ImageCarousel;
