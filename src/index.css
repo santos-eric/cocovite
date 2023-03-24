@@ -74,7 +74,6 @@ select {
   html:focus-within {
    scroll-behavior: auto;
   }
-  
   *,
   *::before,
   *::after {

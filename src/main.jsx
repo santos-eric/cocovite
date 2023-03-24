@@ -9,6 +9,8 @@ import {
 // Routes
 import Root from './routes/root'
 import ErrorPage from './error-page'
+import Home from './routes/home'
+import About from './routes/about'
 import Contact from './routes/contact'
 
 // root route will display everywhere and children display based on root.js outlet
@@ -19,7 +21,15 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "contacts/:contactId",
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contact",
         element: <Contact />,
       },
     ],
