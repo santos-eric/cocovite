@@ -37,13 +37,13 @@ const footer = () => {
       </footer>
       <div className="copyright">
         <h4>
-          &copy; Copyright 2021 | Crafted By
+          &copy; Copyright 2023 | Crafted By
           <a
             href="https://www.linkedin.com/in/ericsantos01/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            -Eric Santos
+            - Eric Santos
           </a>
         </h4>
       </div>
