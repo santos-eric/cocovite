@@ -1,23 +1,31 @@
+header
+    display: flex
+    justify-content: space-between
+    align-items: center
+
 nav
     display: none
     justify-content: space-between
     align-items: center
     flex-flow: row nowrap
-    background-color: black
-    height: 2.5rem
-    h1
-        color: white
+    height: 2.5em
+    margin: 1em 0
+
     ul
+        list-style-type: none
         display: flex
-        flex-flow: row
+        gap: 4.1em
+        margin: 0
 
     @media screen and (min-width:960px)
         display: flex
 
 .link
     text-decoration: none
-    padding: 1.5rem
-    color: white
+    color: black
+    text-transform: uppercase
+    position: relative
+    font-size: 1.6rem
 
 .mobile-menu-bar
     display: flex

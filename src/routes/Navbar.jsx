@@ -11,34 +11,28 @@ const Navbar = () => {
   }
 
   return (
-    <>
-      <div className="mobile-menu-bar">
-        <Link to="/" className="link">
-          <img src="logo48.png" alt="logo" />
-        </Link>
-        <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
-      </div>
-      <nav className={isActive ? "open" : null}>
-        <a href="/">Coco Loko</a>
+    <header>
+      <Link to='/' className="link">Coco Loko</Link>
+      <nav>
         <ul>
           <li className="link">
             <Link to="/" className="link">
-            <h4>Home</h4>
+            Home
             </Link>
           </li>
           <li className="link">
             <Link to="/about" className="link">
-            <h4>About</h4>
+            About
             </Link>
           </li>
           <li className="link">
             <Link to="/contact" className="link">
-            <h4>Contact</h4>
+            Contact
             </Link>
           </li>
         </ul>
       </nav>
-    </>
+    </header>
   );
 };
 export default Navbar;

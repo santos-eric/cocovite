@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Nunito', sans-serif;
-  padding: 0 3rem
+  padding: 0 3rem;
 }
 
 #error-page {

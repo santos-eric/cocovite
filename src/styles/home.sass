@@ -16,32 +16,24 @@
         justify-content: center
         align-items: center
 
-    .hours
-        display: flex
-        justify-content: center
-        align-items: center
-        flex-flow: column
-        height: 50vh
-        .text
+    .news
+
+        @media screen and (min-width:374px)
             display: flex
-            justify-content: center
-            align-items: center
             flex-flow: column
-            background-color: #28282B
-            margin: 2rem
-            height: 30vh
-            width: 65vw
-            @media screen and (min-width:960px)
-                height: 20vh
-                width: 30vw
+            border-radius: .8em
+            padding: 2em
+            gap: 1em
+            margin: 0
+            font-size: 1.5rem
+            section
+                display: flex
+                flex-flow: column
+                justify-content: center
+                align-items: center
+                line-height: 100%
 
-            h1, h2
-                color: aliceblue
-
-    .ingredients
-        img
-            height: auto
-            width: 90vw
-            margin: 1rem
-            @media screen and (min-width:960px)
-                width: 50vw
+        @media screen and ( min-width:720px  )
+            gap: 3em
+            padding: 5em
+            flex-flow: row
