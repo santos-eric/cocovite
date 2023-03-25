@@ -12,11 +12,11 @@ const home = () => {
         </div>
           <div className="news">
             <p>Closed Mondays</p>
-            <section>
+            <section className='hours'>
               <p>Open Sun - Thur</p>
               <p>10:30am - 10pm</p>
             </section>
-            <section>
+            <section className='hours'>
               <p>Open Fri - Sat</p>
               <p>10:30am - 12am</p>
             </section>

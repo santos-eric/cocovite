@@ -6,13 +6,14 @@
     width: 100%
 
     .hero
-        justify-content: center
         width: 50%
 
         @media screen and (min-width:300px)
+            justify-content: center
             height: auto
             width: 100%
-
+        @media screen and (min-width:720px)
+            width: 50%
     .news
 
         @media screen and (min-width:374px)
@@ -34,3 +35,5 @@
             gap: 3em
             padding: 5em
             flex-flow: row
+        .hours
+            font-weight: bold
