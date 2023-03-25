@@ -1,39 +1,94 @@
-.home
+main
     display: flex
-    justify-content: space-between
-    align-items: center
-    flex-flow: column
-    width: 100%
+    gap: 8em
+    margin: 3em 0
+    @media screen and (min-width: 300px)
+        flex-flow: column
+        justify-content: center
+        align-items: center
+    @media screen and (min-width: 960px)
+        flex-flow: row
 
-    .hero
-        width: 50%
-
-        @media screen and (min-width:300px)
-            justify-content: center
-            height: auto
-            width: 100%
-        @media screen and (min-width:720px)
-            width: 50%
-    .news
-
-        @media screen and (min-width:374px)
+    .left-col
+        @media screen and (min-width: 300px)
             display: flex
+            justify-content: center
+            align-items: center
             flex-flow: column
-            border-radius: .8em
-            padding: 2em
-            gap: 1em
-            margin: 0
-            font-size: 1.5rem
-            section
-                display: flex
-                flex-flow: column
-                justify-content: center
-                align-items: center
-                line-height: 100%
+            width: 100%
+            line-height: 1
+        @media screen and (min-width: 960px)
+            width: 45%
+            padding: 5rem
+            line-height: 1.5
+            height: 100%
 
-        @media screen and ( min-width:720px  )
-            gap: 3em
-            padding: 5em
-            flex-flow: row
-        .hours
-            font-weight: bold
+    .right-col
+        flex-grow: 1
+    h1
+        font-size: 3rem
+        font-family: 'Nunito', sans-serif
+        font-weight: normal
+        margin: 0
+    .subhead
+        font-size: 1.5rem
+    .cta-btns
+        margin: 2.5em 0
+    .cta-btns, .secondary-cta
+        display: flex
+        gap: 2em
+    .primary-cta
+        background-color: #48a79c
+        font-size: 1.8rem
+        font-weight: bold
+        color: black
+        text-decoration: none
+        border-radius: 1.9em
+        padding: .5em 1.5em
+    .secondary-cta
+        font-size: 1.8rem
+        text-decoration: none
+        color: black
+        /* display block prevents words wrapping */
+        display: block
+        padding: .5em 0
+
+    // .home
+//     display: flex
+//     justify-content: space-between
+//     align-items: center
+//     flex-flow: column
+//     width: 100%
+
+//     .hero
+//         width: 50%
+
+//         @media screen and (min-width:300px)
+//             justify-content: center
+//             height: auto
+//             width: 100%
+//         @media screen and (min-width:720px)
+//             width: 50%
+//     .news
+
+//         @media screen and (min-width:374px)
+//             display: flex
+//             flex-flow: column
+//             border-radius: .8em
+//             padding: 2em
+//             gap: 1em
+//             margin: 0
+//             font-size: 1.5rem
+//             section
+//                 display: flex
+//                 flex-flow: column
+//                 justify-content: center
+//                 align-items: center
+//                 line-height: 100%
+
+//         @media screen and ( min-width:720px  )
+//             gap: 3em
+//             padding: 5em
+//             flex-flow: row
+//         .hours
+//             font-weight: bold
