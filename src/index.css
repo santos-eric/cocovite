@@ -1,13 +1,17 @@
 body {
-   background-image: url('/images/wood-bg.webp'); /* The image used */
+   background-image: url('/images/wood-bg.jpg'); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position:left; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Delicious Handrawn', sans-serif;
   padding: 0 3rem;
+}
+body h1 {
+  font-family:'Delicious Handrawn',
+    sans-serif;
 }
 
 #error-page {
