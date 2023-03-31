@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/home.sass'
-import Carousel from './carousel.jsx'
+import { Link } from "react-router-dom";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const home = () => {
@@ -13,8 +13,8 @@ const home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet corrupti consequatur.
           </p>
           <div className="cta-btns">
-          <a href="#" className="primary-cta">Order Online</a>
-          <a href="#" className="secondary-cta">View Menu</a>
+          <a href="https://www.google.com" target="_blank" className="primary-cta">Order Online</a>
+          <Link to='/menu' className="secondary-cta">View Menu</Link>
         </div>
         </div>
         {/* <div className="right-col">

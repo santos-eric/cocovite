@@ -12,7 +12,9 @@ const Navbar = () => {
 
   return (
     <header>
-      <Link to='/' className="logo link">Coco Loko</Link>
+      <Link to='/' className="logo link">
+        <img src="/images/logo.png" alt="logo" />
+      </Link>
       <nav>
         <ul>
           <li className="link">

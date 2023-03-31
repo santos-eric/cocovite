@@ -11,6 +11,7 @@ import Root from './routes/root'
 import ErrorPage from './error-page'
 import Home from './routes/home'
 import About from './routes/about'
+import Menu from './routes/menu'
 import Contact from './routes/contact'
 
 // root route will display everywhere and children display based on root.js outlet
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/menu",
+        element: <Menu />,
       },
     ],
   },

@@ -1,6 +1,6 @@
 body {
-   background-image: url('/images/wood-bg.jpg'); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background-image: url('/images/wood-bg.jpg'); /* The image used */
+  -color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position:left; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -8,6 +8,7 @@ body {
   background-attachment: fixed;
   font-family: 'Nunito', sans-serif;
   padding: 0 3rem;
+  color: #00A6A6;
 }
 
 #error-page {
@@ -17,6 +18,7 @@ body {
   justify-content: center;
   width: 100%;
 }
+
 /* ------------------------------------------- */
 /* Box sizing rules */
 *,

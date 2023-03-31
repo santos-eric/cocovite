@@ -10,37 +10,37 @@ const ImageCarousel = () => (
 		className="carousel"
 	>
 		<img
-			src="/images/0.jpg"
+			src="/images/0.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
 		/>
 		<img
-			src="/images/1.jpg"
+			src="/images/1.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/2.jpg"
+			src="/images/2.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/3.jpg"
+			src="/images/3.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/4.jpg"
+			src="/images/4.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/5.jpg"
+			src="/images/5.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
