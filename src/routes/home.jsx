@@ -8,7 +8,7 @@ const home = () => {
     <>
       <main>
         <div className="left-col">
-          <h1>Quality seafood without the price tag</h1>
+          <h1>Coco <br/> Loko</h1>
           <p className="subhead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet corrupti consequatur.
           </p>
@@ -17,9 +17,9 @@ const home = () => {
           <a href="#" className="secondary-cta">View Menu</a>
         </div>
         </div>
-        <div className="right-col">
+        {/* <div className="right-col">
           <Carousel/>
-        </div>
+        </div> */}
         {/* <div className="hero">
           <Carousel />
         </div>

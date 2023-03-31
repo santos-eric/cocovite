@@ -1,7 +1,7 @@
 main
     display: flex
-    gap: 8em
-    margin: 3em 0
+    // gap: 8em
+    margin: 0 0 3em 0
     @media screen and (min-width: 300px)
         flex-flow: column
         justify-content: center
@@ -17,19 +17,21 @@ main
             flex-flow: column
             width: 100%
             line-height: 1
+            h1
+                font-size: 11rem
+                font-family: 'Nunito', sans-serif
+                font-weight: bold
+                margin: 0
         @media screen and (min-width: 960px)
             width: 45%
-            padding: 5rem
-            line-height: 1.5
-            height: 100%
+            // padding: 5rem
+            // line-height: 1.5
+            // height: 100%
+            h1
+                font-size: 45rem
 
     .right-col
         flex-grow: 1
-    h1
-        font-size: 3rem
-        font-family: 'Nunito', sans-serif
-        font-weight: normal
-        margin: 0
     .subhead
         font-size: 1.5rem
     .cta-btns
