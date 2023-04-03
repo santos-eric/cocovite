@@ -18,23 +18,10 @@ const home = () => {
         </div>
         </div>
         <div className="right-col">
-          <Carousel/>
+          <img src="/images/0.webp" alt="anniversary" />
         </div>
-        {/* <div className="hero">
-          <Carousel />
-        </div>
-          <div className="news">
-            <p>Closed Mondays</p>
-            <section className='hours'>
-              <p>Open Sun - Thur</p>
-              <p>10:30am - 10pm</p>
-            </section>
-            <section className='hours'>
-              <p>Open Fri - Sat</p>
-              <p>10:30am - 12am</p>
-            </section>
-          </div> */}
       </main>
+      <Carousel/>
     </>
   )
 }
