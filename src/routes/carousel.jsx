@@ -9,42 +9,103 @@ const ImageCarousel = () => (
 		infiniteLoop="True"
 		className="carousel"
 	>
-		<img
-			src="/images/0.jpg"
+		<img src="/images/test.jpg" alt=""/>
+		{/* <img
+			src="/images/0.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
 		/>
 		<img
-			src="/images/1.jpg"
+			src="/images/1.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/2.jpg"
+			src="/images/2.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/3.jpg"
+			src="/images/3.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/4.jpg"
+			src="/images/4.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
 		<img
-			src="/images/5.jpg"
+			src="/images/6.webp"
 			alt="aguachiles"
 			height="619"
 			width="800"
             />
+		<img
+			src="/images/7.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/8.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/9.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/10.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/11.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/12.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/13.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/14.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/15.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            />
+		<img
+			src="/images/16.webp"
+			alt="aguachiles"
+			height="619"
+			width="800"
+            /> */}
 	</Carousel>
 );
 export default ImageCarousel;

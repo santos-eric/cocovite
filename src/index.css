@@ -9,10 +9,6 @@ body {
   font-family: 'Delicious Handrawn', sans-serif;
   padding: 0 3rem;
 }
-body h1 {
-  font-family:'Delicious Handrawn',
-    sans-serif;
-}
 
 #error-page {
   display: flex;
